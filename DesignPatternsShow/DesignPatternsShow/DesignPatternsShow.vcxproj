@@ -152,6 +152,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Patterns\AbstractFactoryPattern.h" />
+    <ClInclude Include="Patterns\AdapterPattern.h" />
+    <ClInclude Include="Patterns\BridgePattern.h" />
+    <ClInclude Include="Patterns\BuilderPattern.h" />
     <ClInclude Include="Patterns\FactoryMethodPattern.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Patterns\SimpleFactoryPattern.h" />

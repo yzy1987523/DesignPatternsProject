@@ -141,7 +141,7 @@ namespace AbstractFactoryPattern {
 		Fcc.CreateSideProduct()->Show();
 
 		//=============================//
-		//用auto的声明方式，自由度更高//
+		//用auto的声明方式，自由度更高,但是学习阶段不建议使用//
 		//=============================//
 		auto*f = new FactoryB;
 		f->CreateProduct()->Show();

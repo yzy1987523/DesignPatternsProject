@@ -7,13 +7,18 @@
 #include "Patterns/SimpleFactoryPattern.h"
 #include "Patterns/FactoryMethodPattern.h"
 #include "Patterns/AbstractFactoryPattern.h"
-
+#include "Patterns/BuilderPattern.h"
+#include "Patterns/AdapterPattern.h"
+#include "Patterns/BridgePattern.h"
 int main()
 {
     std::cout << "Hello World!\n"; 
 	//SimpleFactoryPattern::SimpleFactoryPatternTest();
 	//FactoryMethodPattern::FactoryMethodPatternTest();
-	AbstractFactoryPattern::AbstractFactoryPatternTest();
+	//AbstractFactoryPattern::AbstractFactoryPatternTest();
+	//BuilderPattern::BuilderPatternTest();
+	//AdapterPattern::AdapterPatternTest();
+	BridgePattern::BridgePatternTest();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
