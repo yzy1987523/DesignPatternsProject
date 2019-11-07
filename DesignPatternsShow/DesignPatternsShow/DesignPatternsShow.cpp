@@ -11,6 +11,8 @@
 #include "Patterns/AdapterPattern.h"
 #include "Patterns/BridgePattern.h"
 #include "Patterns/DecoratorPattern.h"
+#include "Patterns/FacadePattern.h"
+#include "Patterns/FlyweightPattern.h"
 int main()
 {
     std::cout << "Hello World!\n"; 
@@ -20,5 +22,7 @@ int main()
 	//BuilderPattern::BuilderPatternTest();
 	//AdapterPattern::AdapterPatternTest();
 	//BridgePattern::BridgePatternTest();
-	DecoratorPattern::DecoratorPatternTest();
+	//DecoratorPattern::DecoratorPatternTest();
+	//FacadePattern::FacadePatternTest();
+	FlyweightPattern::FlyweightPatternTest();
 }
