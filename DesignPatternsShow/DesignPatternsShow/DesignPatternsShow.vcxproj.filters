@@ -36,6 +36,12 @@
     <ClInclude Include="Patterns\BridgePattern.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Patterns\DecoratorPattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\FacadePattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">

@@ -31,7 +31,7 @@ namespace AbstractFactoryPattern {
 			cout << "I'm ProductB" << endl;
 		}
 	};
-	class ProductC:public Product
+	class ProductC :public Product
 
 	{
 	public:
@@ -40,7 +40,7 @@ namespace AbstractFactoryPattern {
 			cout << "I'm ProductC" << endl;
 		}
 	};
-	
+
 	//副产品
 	class SideProduct
 	{
@@ -72,7 +72,7 @@ namespace AbstractFactoryPattern {
 			cout << "I'm SideProductC" << endl;
 		}
 	};
-	
+
 	class Factory
 	{
 	public:
@@ -109,7 +109,7 @@ namespace AbstractFactoryPattern {
 			return new SideProductB();
 		}
 	};
-	class FactoryC:public Factory
+	class FactoryC :public Factory
 	{
 	public:
 		Product* CreateProduct()
@@ -117,7 +117,7 @@ namespace AbstractFactoryPattern {
 			cout << "Create ProductC" << endl;
 			return new ProductC();
 		}
-		 SideProduct* CreateSideProduct()
+		SideProduct* CreateSideProduct()
 		{
 			cout << "Create SideProductC" << endl;
 			return new SideProductC();
@@ -125,14 +125,14 @@ namespace AbstractFactoryPattern {
 	};
 
 	void AbstractFactoryPatternTest()
-	{	
+	{
 		Product*p = FactoryA::CreateProduct();//方法要用static修饰才能用这种方式
 		SideProduct*sp = FactoryA::CreateSideProduct();
-		
+
 		p->Show();
 		sp->Show();
 
-		Factory*Fcb=new FactoryB;//也可以用指针的方式,一般用这种方式，因为可以用抽象类声明
+		Factory*Fcb = new FactoryB;//也可以用指针的方式,一般用这种方式，因为可以用抽象类声明
 		Fcb->CreateProduct()->Show();
 		Fcb->CreateSideProduct()->Show();
 
