@@ -159,6 +159,7 @@
     <ClInclude Include="Patterns\FacadePattern.h" />
     <ClInclude Include="Patterns\FactoryMethodPattern.h" />
     <ClInclude Include="Patterns\FlyweightPattern.h" />
+    <ClInclude Include="Patterns\ProxyPattern.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Patterns\SimpleFactoryPattern.h" />
   </ItemGroup>
