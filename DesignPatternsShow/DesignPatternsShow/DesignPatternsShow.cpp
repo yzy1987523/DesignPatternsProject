@@ -3,7 +3,6 @@
 
 #include "pch.h"
 #include <iostream>
-
 #include "Patterns/SimpleFactoryPattern.h"
 #include "Patterns/FactoryMethodPattern.h"
 #include "Patterns/AbstractFactoryPattern.h"
@@ -24,5 +23,5 @@ int main()
 	//BridgePattern::BridgePatternTest();
 	//DecoratorPattern::DecoratorPatternTest();
 	//FacadePattern::FacadePatternTest();
-	FlyweightPattern::FlyweightPatternTest();
+	FlyweightPattern::FlyweightPatternTest();	
 }

@@ -1,2 +1,10 @@
 ﻿  DesignPatternsShow.cpp
-  DesignPatternsShow.vcxproj -> D:\Projects\CPlusProjects\DesignPatternsProject\DesignPatternsShow\Debug\DesignPatternsShow.exe
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(3215): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(3222): note: 参见对正在编译的 类 模板 实例化 "std::hash<FlyweightPattern::std::vector<bool,_Alloc>>" 的引用
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(3215): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(3215): error C2238: 意外的标记位于“;”之前
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(3218): error C2143: 语法错误: 缺少“)”(在“<”的前面)
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(3218): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(3218): error C2059: 语法错误:“<”
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(3218): error C2059: 语法错误:“)”
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\vector(3219): error C2334: “{”的前面有意外标记；跳过明显的函数体
