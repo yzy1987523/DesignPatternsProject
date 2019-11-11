@@ -1,7 +1,7 @@
 /*文件名：FactoryMethodPattern.h
 作者：YZY
 说明：工厂方法模式
-上次修改时间：2019/11/5 16：03：03 *
+上次修改时间：2019/11/5 
 */
 #pragma once
 #include <iostream>

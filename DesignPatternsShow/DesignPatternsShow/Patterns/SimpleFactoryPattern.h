@@ -1,7 +1,7 @@
 /*文件名：SimpleFactoryPattern.h
 作者：YZY
 说明：简单工厂模式
-上次修改时间：2019/11/5 16：03：25 *
+上次修改时间：2019/11/5 
 */
 #pragma once
 #include <iostream>

@@ -1,7 +1,7 @@
 /*文件名：BridgePattern.h
 作者：YZY
 说明：桥接模式
-上次修改时间：2019/11/6 17：12：20 *
+上次修改时间：2019/11/6 
 */
 #pragma once
 namespace BridgePattern {

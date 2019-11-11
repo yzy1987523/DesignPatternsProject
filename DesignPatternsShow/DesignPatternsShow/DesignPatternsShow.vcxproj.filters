@@ -48,6 +48,33 @@
     <ClInclude Include="Patterns\ProxyPattern.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Patterns\MediatorPattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\ObserverPattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\StatePattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\StrategyPattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\CommandPattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\TemplateMethodPattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\ChainOfResponsibilityPattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\IteratorPattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\VisitorPattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">

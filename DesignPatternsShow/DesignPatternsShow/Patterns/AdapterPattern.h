@@ -1,7 +1,7 @@
 /*文件名：AdapterPattern.h
 作者：YZY
 说明：适配器模式
-上次修改时间：2019/11/6 15：30：06 *
+上次修改时间：2019/11/6 
 */
 #pragma once
 #include <iostream>

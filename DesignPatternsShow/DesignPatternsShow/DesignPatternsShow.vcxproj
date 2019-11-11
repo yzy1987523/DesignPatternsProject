@@ -151,6 +151,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Patterns\ChainOfResponsibilityPattern.h" />
+    <ClInclude Include="Patterns\CommandPattern.h" />
     <ClInclude Include="Patterns\DecoratorPattern.h" />
     <ClInclude Include="Patterns\AbstractFactoryPattern.h" />
     <ClInclude Include="Patterns\AdapterPattern.h" />
@@ -159,7 +161,14 @@
     <ClInclude Include="Patterns\FacadePattern.h" />
     <ClInclude Include="Patterns\FactoryMethodPattern.h" />
     <ClInclude Include="Patterns\FlyweightPattern.h" />
+    <ClInclude Include="Patterns\IteratorPattern.h" />
+    <ClInclude Include="Patterns\MediatorPattern.h" />
+    <ClInclude Include="Patterns\ObserverPattern.h" />
     <ClInclude Include="Patterns\ProxyPattern.h" />
+    <ClInclude Include="Patterns\StatePattern.h" />
+    <ClInclude Include="Patterns\StrategyPattern.h" />
+    <ClInclude Include="Patterns\TemplateMethodPattern.h" />
+    <ClInclude Include="Patterns\VisitorPattern.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Patterns\SimpleFactoryPattern.h" />
   </ItemGroup>
