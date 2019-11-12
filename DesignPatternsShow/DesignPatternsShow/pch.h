@@ -8,7 +8,15 @@
 
 #ifndef PCH_H
 #define PCH_H
-
+#include <list>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+#include <stdio.h>
+#include <stdlib.h>
+//#include <pthread.h>
+#include <windows.h>
 // TODO: 添加要在此处预编译的标头
 
 #endif //PCH_H
