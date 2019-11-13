@@ -26,6 +26,9 @@
 #include "Patterns/SingletonPattern.h"//22 单例
 #include "Patterns/PrototypePattern.h"//23 原型
 #include "Patterns/CompositePattern.h"//24 组合
+
+#include "BaseKnowledge/TemplateTutorial.h"//模板案例
+#include "BaseKnowledge/ForeachTutorial.h"//foreach案例
 using namespace std;
 int main()
 {
@@ -38,7 +41,7 @@ int main()
 	//BridgePattern::BridgePatternTest();
 	//DecoratorPattern::DecoratorPatternTest();
 	//FacadePattern::FacadePatternTest();
-	//FlyweightPattern::FlyweightPatternTest();	
+	//FlyweightPattern::FlyweightPatternTest();
 	//ProxyPattern::ProxyPatternTest();
 	//MediatorPattern::MediatorPatternTest();
 	//ObserverPattern::ObserverPatternTest();
@@ -53,7 +56,9 @@ int main()
 	//InterpreterPattern::InterpreterPatternTest();
 	//SingletonPattern::SingletonPatternTest();
 	//PrototypePattern::PrototypePatternTest();
-	CompositePattern::CompositePatternTest();
+	//CompositePattern::CompositePatternTest();
+	//TemplateTutorial::TemplateTutorialTest();
+	ForeachTutorial::ForeachTutorialTest();
 	
 
 }

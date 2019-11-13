@@ -13,82 +13,94 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\Pattern">
+      <UniqueIdentifier>{e98757a8-263f-459d-b309-0225415273e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\BaseKnowledge">
+      <UniqueIdentifier>{6464b09f-54c9-4c04-8920-4218984ca8e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Patterns\FactoryMethodPattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Patterns\SimpleFactoryPattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Patterns\AbstractFactoryPattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Patterns\BuilderPattern.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\Pattern</Filter>
     </ClInclude>
     <ClInclude Include="Patterns\AdapterPattern.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\Pattern</Filter>
     </ClInclude>
     <ClInclude Include="Patterns\BridgePattern.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\Pattern</Filter>
     </ClInclude>
-    <ClInclude Include="Patterns\DecoratorPattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Patterns\FacadePattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Patterns\FlyweightPattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Patterns\ProxyPattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Patterns\MediatorPattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Patterns\ObserverPattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Patterns\StatePattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Patterns\StrategyPattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Patterns\CommandPattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Patterns\TemplateMethodPattern.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="Patterns\BuilderPattern.h">
+      <Filter>头文件\Pattern</Filter>
     </ClInclude>
     <ClInclude Include="Patterns\ChainOfResponsibilityPattern.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\Pattern</Filter>
     </ClInclude>
-    <ClInclude Include="Patterns\IteratorPattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Patterns\VisitorPattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Patterns\MementoPattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Patterns\InterpreterPattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Patterns\SingletonPattern.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Patterns\PrototypePattern.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="Patterns\CommandPattern.h">
+      <Filter>头文件\Pattern</Filter>
     </ClInclude>
     <ClInclude Include="Patterns\CompositePattern.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\DecoratorPattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\FacadePattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\FactoryMethodPattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\FlyweightPattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\InterpreterPattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\IteratorPattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\MediatorPattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\MementoPattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\ObserverPattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\ProxyPattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\SimpleFactoryPattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\SingletonPattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\StatePattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\StrategyPattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\TemplateMethodPattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\VisitorPattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Patterns\PrototypePattern.h">
+      <Filter>头文件\Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseKnowledge\TemplateTutorial.h">
+      <Filter>头文件\BaseKnowledge</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseKnowledge\ForeachTutorial.h">
+      <Filter>头文件\BaseKnowledge</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -98,9 +110,5 @@
     <ClCompile Include="DesignPatternsShow.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-    <None Include="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\list" />
   </ItemGroup>
 </Project>

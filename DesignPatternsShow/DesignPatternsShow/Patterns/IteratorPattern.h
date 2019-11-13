@@ -8,7 +8,7 @@
 #include <string>
 #include <vector>
 namespace IteratorPattern {
-	using namespace std;
+	//using namespace std;
 	class Iterator
 	{
 	public:		
