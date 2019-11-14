@@ -29,6 +29,8 @@
 
 #include "BaseKnowledge/TemplateTutorial.h"//模板案例
 #include "BaseKnowledge/ForeachTutorial.h"//foreach案例
+#include "BaseKnowledge/IteratorTutorial.h"//迭代器案例
+#include "BaseKnowledge/TimeTutorial.h"//时间相关案例
 using namespace std;
 int main()
 {
@@ -58,7 +60,9 @@ int main()
 	//PrototypePattern::PrototypePatternTest();
 	//CompositePattern::CompositePatternTest();
 	//TemplateTutorial::TemplateTutorialTest();
-	ForeachTutorial::ForeachTutorialTest();
+	//ForeachTutorial::ForeachTutorialTest();
+	//IteratorTutorial::IteratorTutorialTest();
+	TimeTutorial::TimeTutorialTest();
 	
 
 }

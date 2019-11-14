@@ -102,6 +102,12 @@
     <ClInclude Include="BaseKnowledge\ForeachTutorial.h">
       <Filter>头文件\BaseKnowledge</Filter>
     </ClInclude>
+    <ClInclude Include="BaseKnowledge\IteratorTutorial.h">
+      <Filter>头文件\BaseKnowledge</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseKnowledge\TimeTutorial.h">
+      <Filter>头文件\BaseKnowledge</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
