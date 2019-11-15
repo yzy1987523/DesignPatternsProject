@@ -153,7 +153,9 @@
   <ItemGroup>
     <ClInclude Include="BaseKnowledge\ForeachTutorial.h" />
     <ClInclude Include="BaseKnowledge\IteratorTutorial.h" />
+    <ClInclude Include="BaseKnowledge\LambdaTutorial.h" />
     <ClInclude Include="BaseKnowledge\TemplateTutorial.h" />
+    <ClInclude Include="BaseKnowledge\ThreadTutorial.h" />
     <ClInclude Include="BaseKnowledge\TimeTutorial.h" />
     <ClInclude Include="Patterns\ChainOfResponsibilityPattern.h" />
     <ClInclude Include="Patterns\CommandPattern.h" />

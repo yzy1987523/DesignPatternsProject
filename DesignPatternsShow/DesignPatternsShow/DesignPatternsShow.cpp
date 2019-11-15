@@ -31,6 +31,8 @@
 #include "BaseKnowledge/ForeachTutorial.h"//foreach案例
 #include "BaseKnowledge/IteratorTutorial.h"//迭代器案例
 #include "BaseKnowledge/TimeTutorial.h"//时间相关案例
+#include "BaseKnowledge/ThreadTutorial.h"//线程案例
+#include "BaseKnowledge/LambdaTutorial.h"//Lambda表达式案例
 using namespace std;
 int main()
 {
@@ -62,7 +64,8 @@ int main()
 	//TemplateTutorial::TemplateTutorialTest();
 	//ForeachTutorial::ForeachTutorialTest();
 	//IteratorTutorial::IteratorTutorialTest();
-	TimeTutorial::TimeTutorialTest();
-	
+	//TimeTutorial::TimeTutorialTest();
+	//ThreadTutorial::ThreadTutorialTest();
+	LambdaTutorial::LambdaTutorialTest();
 
 }
